@@ -1,12 +1,12 @@
-_id: req_wrk_95103ade1ff74fd4953cd3b6918f2cfc74a7a059
+_id: req_540d9122de8546c18041c580325c9014
 type: Request
-parentId: fld_wrk_95103ade1ff74fd4953cd3b6918f2cfc1b034c38
-modified: 1646404578318
-created: 1646403946913
-url: "{{ base_url }}/pet"
-name: Update an existing pet
+parentId: fld_ee9fd15f6b644139a63d425acf6580eb
+modified: 1646404837489
+created: 1646404717677
+url: "{{ base_url }}/petttt"
+name: Add a new pet to the store
 description: ""
-method: PUT
+method: POST
 body:
   mimeType: application/json
   text: |-
@@ -32,9 +32,9 @@ parameters: []
 headers:
   - name: Content-Type
     value: application/json
-    id: pair_2929ea7aaf6146b9a09a0cee4e4223e1
+    id: pair_13641fef790b4d948e8f3127d81a4be6
 authentication: {}
-metaSortKey: -1646403946913
+metaSortKey: -1646403946916
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

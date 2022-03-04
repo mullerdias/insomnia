@@ -1,17 +1,17 @@
-_id: req_wrk_95103ade1ff74fd4953cd3b6918f2cfc443ac9e7
+_id: req_b0ddc94310f3471da50666ae56397689
 type: Request
-parentId: fld_wrk_95103ade1ff74fd4953cd3b6918f2cfc3a21295d
-modified: 1646404843038
-created: 1646403946901
-url: "{{ base_url }}/store/inventory"
-name: Returns pet inventories by status
+parentId: fld_ee9fd15f6b644139a63d425acf6580eb
+modified: 1646404717665
+created: 1646404717665
+url: "{{ base_url }}/pet/{{ petId }}"
+name: Find pet by ID
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1646403946901
+metaSortKey: -1646403946909
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
